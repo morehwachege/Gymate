@@ -32,7 +32,7 @@ function GalleryPage2() {
         <Link
           onClick={() => window.top(0, 0)}
           to="/gallery/page-2"
-          className="text-white inline-flex items-center justify-center text-center text-[18px] border border-solid border-[#dee2e6] w-[48px] h-[45px] font-medium rounded-md bg-[#ff0336] "
+          className="text-white inline-flex items-center justify-center text-center text-[18px] border border-solid border-[#dee2e6] w-[48px] h-[45px] font-medium rounded-md bg-[#007FFF] "
         >
           2
         </Link>

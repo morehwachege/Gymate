@@ -17,7 +17,7 @@ function Trainers() {
               className="w-[21rem] absolute -top-[6px]"
             />
 
-            <h2 className="text-[3.4rem] font-bold mb-4">
+            <h2 className="text-[3.4rem] font-bold mb-4 text-gray-200">
               Team Of Expert Coaches
             </h2>
             <p className="text-[#646464] font-medium text-[15px] ">

@@ -41,11 +41,11 @@ function Hero() {
           absolute top-2/4 right-0 items-center min800:hidden"
         >
           <p className="uppercase  text-3xl font-bold tracking-widest">share</p>
-          <span className="w-[35px] bg-[#FF0336] h-[2.5px] mr-6"></span>
+          <span className="w-[35px] bg-[#007FFF] h-[2.5px] mr-6"></span>
           <div className="text-white gap-7 flex mr-7 ">
-            <i className="fa-brands rotate-90 hover:text-[#FF0336] fa-facebook text-3xl cursor-pointer ease-in duration-200 "></i>
-            <i className="fa-brands rotate-90 hover:text-[#FF0336] fa-twitter text-3xl cursor-pointer ease-in duration-200"></i>
-            <i className="fa-brands rotate-90 hover:text-[#FF0336]  fa-linkedin-in text-3xl cursor-pointer ease-in duration-200 "></i>
+            <i className="fa-brands rotate-90 hover:text-[#007FFF] fa-facebook text-3xl cursor-pointer ease-in duration-200 "></i>
+            <i className="fa-brands rotate-90 hover:text-[#007FFF] fa-twitter text-3xl cursor-pointer ease-in duration-200"></i>
+            <i className="fa-brands rotate-90 hover:text-[#007FFF]  fa-linkedin-in text-3xl cursor-pointer ease-in duration-200 "></i>
           </div>
         </div>
       </section>

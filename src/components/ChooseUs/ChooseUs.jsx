@@ -39,7 +39,7 @@ function ChooseUs() {
               We Can Give A Shape Of Your Body Here!
             </h2>
             <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl md1000:max-w-[80%]">
-              At <b>Gymate</b>, we are dedicated to helping you achieve the body
+              At <b>Hercules Fitness</b>, we are dedicated to helping you achieve the body
               of your dreams. Our expert trainers and nutritionists will work
               with you to create a personalized fitness and nutrition plan that
               helps you reach your specific goals.
@@ -48,7 +48,7 @@ function ChooseUs() {
             <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[44rem] mt-14 min450:flex min450:flex-col">
               <div className="flex items-center gap-6">
                 <img
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#007FFF] ease-in duration-200 w-[6.5rem] rounded-full p-4"
                   src={TrainingIcon}
                   alt="icon"
                 />
@@ -59,7 +59,7 @@ function ChooseUs() {
 
               <div className="flex items-center gap-6">
                 <img
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#007FFF] ease-in duration-200 w-[6.5rem] rounded-full p-4"
                   src={EquipmentsIcon}
                   alt="icon"
                 />
@@ -70,7 +70,7 @@ function ChooseUs() {
 
               <div className="flex items-center gap-6">
                 <img
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#007FFF] ease-in duration-200 w-[6.5rem] rounded-full p-4"
                   src={BagIcon}
                   alt="icon"
                 />
@@ -81,7 +81,7 @@ function ChooseUs() {
 
               <div className="flex items-center gap-6">
                 <img
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#007FFF] ease-in duration-200 w-[6.5rem] rounded-full p-4"
                   src={BottleIcon}
                   alt="icon"
                 />
@@ -95,7 +95,7 @@ function ChooseUs() {
                 text="our classes"
                 arrowColor={`!text-white`}
                 cN="choose-cta"
-                hover={`hover:bg-[#ff0336]`}
+                hover={`hover:bg-[#007FFF]`}
                 goTo="/classes"
               />
             </div>

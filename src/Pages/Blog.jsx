@@ -58,7 +58,7 @@ function Blog() {
                 placeholder="Search..."
               ></input>
               <button type="submit">
-                <i className="fa-solid fa-magnifying-glass bg-[#ff0336] text-white text-[23px] h-[60px] w-[60px] rounded-br-xl rounded-tr-xl pt-[18px]"></i>
+                <i className="fa-solid fa-magnifying-glass bg-[#007FFF] text-white text-[23px] h-[60px] w-[60px] rounded-br-xl rounded-tr-xl pt-[18px]"></i>
               </button>
             </form>
 
@@ -67,9 +67,9 @@ function Blog() {
               <p className="text-[18px] text-black font-bold mb-5">
                 Categories
               </p>
-              <span className="w-[40px] h-[3.5px] bg-[#ff0336]"></span>
+              <span className="w-[40px] h-[3.5px] bg-[#007FFF]"></span>
               <ul className="text-[16px] text-[#7e7e7e] font-medium mt-10">
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#007FFF] ease-in duration-200">
                   <p>
                     <i className="text-[13px]  fa-solid fa-chevron-right"></i>
                     &nbsp; Body Building
@@ -77,7 +77,7 @@ function Blog() {
                   <span>(4)</span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#007FFF] ease-in duration-200">
                   <p>
                     <i className="text-[13px]  fa-solid fa-chevron-right"></i>
                     &nbsp; Boxing
@@ -85,7 +85,7 @@ function Blog() {
                   <span>(4)</span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#007FFF] ease-in duration-200">
                   <p>
                     <i className="text-[13px]  fa-solid fa-chevron-right"></i>
                     &nbsp; Crossfit
@@ -93,7 +93,7 @@ function Blog() {
                   <span>(4)</span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#007FFF] ease-in duration-200">
                   <p>
                     <i className="text-[13px]  fa-solid fa-chevron-right"></i>
                     &nbsp; Fitness
@@ -101,7 +101,7 @@ function Blog() {
                   <span>(4)</span>
                 </li>
 
-                <li className="flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#007FFF] ease-in duration-200">
                   <p>
                     <i className="text-[13px] fa-solid fa-chevron-right"></i>
                     &nbsp; Meditation
@@ -109,7 +109,7 @@ function Blog() {
                   <span>(4)</span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#007FFF] ease-in duration-200">
                   <p>
                     <i className="text-[13px]  fa-solid fa-chevron-right"></i>
                     &nbsp; Yoga
@@ -123,7 +123,7 @@ function Blog() {
               <p className="text-[18px] text-black font-bold mb-5">
                 Recent Posts
               </p>
-              <span className="w-[40px] h-[3.5px] bg-[#ff0336] mb-7"></span>
+              <span className="w-[40px] h-[3.5px] bg-[#007FFF] mb-7"></span>
               <div className="flex flex-col gap-7">
                 {/*  */}
                 <div className="flex gap-8">
@@ -132,7 +132,7 @@ function Blog() {
                     <p className="text-[14px] text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-[16px] text-black hover:text-[#007FFF] ease-in duration-200 cursor-pointer font-bold">
                       Yoga For Everyone in 2022
                     </p>
                   </div>
@@ -144,7 +144,7 @@ function Blog() {
                     <p className="text-[14px] text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-[16px] text-black hover:text-[#007FFF] ease-in duration-200 cursor-pointer font-bold">
                       Getting Back Into CrossFit
                     </p>
                   </div>
@@ -156,7 +156,7 @@ function Blog() {
                     <p className="text-[14px] text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-[16px] text-black hover:text-[#007FFF] ease-in duration-200 cursor-pointer font-bold">
                       Meet Fitness Abassador Grace
                     </p>
                   </div>
@@ -168,7 +168,7 @@ function Blog() {
                     <p className="text-[14px] text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-[16px] text-black hover:text-[#007FFF] ease-in duration-200 cursor-pointer font-bold">
                       The best are European Meditation Practitioner
                     </p>
                   </div>
@@ -180,7 +180,7 @@ function Blog() {
                     <p className="text-[14px] text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-[16px] text-black hover:text-[#007FFF] ease-in duration-200 cursor-pointer font-bold">
                       Learn Boxing With Our Trainer John
                     </p>
                   </div>
@@ -192,7 +192,7 @@ function Blog() {
                     <p className="text-[14px] text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-[16px] text-black hover:text-[#007FFF] ease-in duration-200 cursor-pointer font-bold">
                       How To Get Lean For The Summer
                     </p>
                   </div>
@@ -204,30 +204,30 @@ function Blog() {
               <p className="text-[18px] text-black font-bold mb-5">
                 Popular Tags
               </p>
-              <span className="w-[40px] h-[3.5px] bg-[#ff0336] mb-7"></span>
+              <span className="w-[40px] h-[3.5px] bg-[#007FFF] mb-7"></span>
               <div className="flex gap-3 text-[16px] text-[#646464] font-medium flex-wrap">
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                <p className="bg-white py-[4px] px-[14px] hover:text-[#007FFF] ease-in duration-200 cursor-pointer">
                   #Crossfit
                 </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                <p className="bg-white py-[4px] px-[14px] hover:text-[#007FFF] ease-in duration-200 cursor-pointer">
                   #Fitness
                 </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                <p className="bg-white py-[4px] px-[14px] hover:text-[#007FFF] ease-in duration-200 cursor-pointer">
                   #Gym
                 </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                <p className="bg-white py-[4px] px-[14px] hover:text-[#007FFF] ease-in duration-200 cursor-pointer">
                   #Meditation
                 </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                <p className="bg-white py-[4px] px-[14px] hover:text-[#007FFF] ease-in duration-200 cursor-pointer">
                   #Running
                 </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                <p className="bg-white py-[4px] px-[14px] hover:text-[#007FFF] ease-in duration-200 cursor-pointer">
                   #Workout
                 </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                <p className="bg-white py-[4px] px-[14px] hover:text-[#007FFF] ease-in duration-200 cursor-pointer">
                   #Yoga
                 </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
+                <p className="bg-white py-[4px] px-[14px] hover:text-[#007FFF] ease-in duration-200 cursor-pointer">
                   #Boxing
                 </p>
               </div>

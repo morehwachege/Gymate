@@ -84,7 +84,7 @@ function About() {
                 bg={`bg-[#3f3f3f]`}
                 cN="about-cta"
                 arrowColor={`!text-white`}
-                hover={`hover:bg-[#FF0336]`}
+                hover={`hover:bg-[#007FFF]`}
                 text="take a tour"
                 goTo="/classes"
               />

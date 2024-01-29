@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../../images/logo/logo.svg";
+import Logo from "../../images/logo/logo.png";
 import NavList from "../Nav/NavList";
 import { Link } from "react-router-dom";
 import LogoSide from "../../images/logo/logo-footer.svg";
@@ -43,10 +43,6 @@ function Navbar() {
     });
   };
 
-  // sidebar
-  const sideBar = () => {
-    setSideBar(!sidebar);
-  };
 
   // hamburger menu
   const hamburgerMenu = () => {
@@ -56,16 +52,15 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`flex flex-row bg-transparent items-center justify-between py-8 px-12  fixed top-0 left-0 right-0 w-full z-50 ${
-          sticky ? "shadow-xl !bg-black" : ""
-        }`}
+        className={`flex flex-row bg-transparent items-center justify-between py-8 px-12  fixed top-0 left-0 right-0 w-full z-50 ${sticky ? "shadow-xl !bg-black" : ""
+          }`}
       >
         <Link to="/">
           <img
             src={Logo}
             alt="logo_img"
             onClick={goTop}
-            className="w-full h-auto"
+            className="w-auto h-40"
           />
         </Link>
         <div className="navlist-nav">
@@ -77,13 +72,12 @@ function Navbar() {
 
             {/* hamburger menu */}
             <div
-              className={`flex top-0 flex-col fixed w-full left-0 h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${
-                hamburger ? "left-0" : "-left-[100%]"
-              }`}
+              className={`flex top-0 flex-col fixed w-full left-0 h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${hamburger ? "left-0" : "-left-[100%]"
+                }`}
             >
               <i
                 onClick={hamburgerMenu}
-                className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer self-end"
+                className="fa-solid fa-xmark text-[#007FFF] text-[3.3rem] cursor-pointer self-end"
               ></i>
 
               {/* links */}
@@ -91,7 +85,7 @@ function Navbar() {
                 <li onClick={hamburgerMenu}>
                   <a
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium hover:text-[#007FFF] ease-in duration-200"
                     href="/#home"
                   >
                     Home
@@ -100,7 +94,7 @@ function Navbar() {
                 <li onClick={hamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium hover:text-[#007FFF] ease-in duration-200"
                     to="/about"
                   >
                     About
@@ -109,7 +103,7 @@ function Navbar() {
                 <li onClick={hamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium hover:text-[#007FFF] ease-in duration-200"
                     to="/schedule/monday"
                   >
                     Schedule
@@ -118,7 +112,7 @@ function Navbar() {
                 <li onClick={hamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium hover:text-[#007FFF] ease-in duration-200"
                     to="/gallery/page-1"
                   >
                     Gallery
@@ -127,16 +121,7 @@ function Navbar() {
                 <li onClick={hamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="/blog"
-                  >
-                    Blog
-                  </Link>
-                </li>
-                <li onClick={hamburgerMenu}>
-                  <Link
-                    onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium hover:text-[#007FFF] ease-in duration-200"
                     to="/contact"
                   >
                     Contact
@@ -145,7 +130,7 @@ function Navbar() {
                 <li onClick={hamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium hover:text-[#007FFF] ease-in duration-200"
                     to="/pricing"
                   >
                     Pricing
@@ -154,7 +139,7 @@ function Navbar() {
                 <li onClick={hamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
+                    className="text-[2rem] font-medium hover:text-[#007FFF] ease-in duration-200"
                     to="/classes"
                   >
                     Classes
@@ -163,116 +148,16 @@ function Navbar() {
               </ul>
             </div>
 
-            {/* sidebar */}
-
-            <div>
-              <div
-                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-white top-0 left-0 z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${
-                  sidebar ? "left-0" : "-left-[100%]"
-                }`}
-              >
-                {/* logo & X */}
-                <div className="flex justify-between items-center">
-                  <img src={LogoSide} alt="logo_img" className="w-[13rem]" />
-                  <i
-                    onClick={sideBar}
-                    className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer"
-                  ></i>
-                </div>
-                {/* about us */}
-                <div className="flex flex-col gap-6">
-                  <h3 className="text-[2rem] font-bold">About Us</h3>
-                  <p className="text-[1.6rem] font-medium text-[#000000b1]">
-                    Find out who we are and what makes us unique. We are a
-                    community-driven gym committed to providing personalized
-                    fitness experiences for all levels of fitness enthusiasts in
-                    a welcoming and supportive environment.
-                  </p>
-                </div>
-                {/* gallery */}
-                <div className="flex flex-col gap-6">
-                  <h3 className="text-[2rem] font-bold">Gallery</h3>
-                  <div className="grid grid-cols-3 grid-rows-2 gap-4">
-                    <img
-                      src={SideImg1}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg2}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg3}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg4}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg5}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                    <img
-                      src={SideImg6}
-                      alt="sidebar_gallery"
-                      className="rounded-xl cursor-pointer "
-                    />
-                  </div>
-                </div>
-                {/* contact */}
-                <div className="flex flex-col gap-6">
-                  <h3 className="text-[2rem] font-bold">Contact Info</h3>
-                  <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-location-dot text-[#ff0336]"></i>
-                    &nbsp; 59 Street, House Newyork City
-                  </p>
-                  <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-phone text-[#ff0336]"></i>&nbsp;
-                    +123-678800090
-                  </p>
-                  <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-envelope text-[#ff0336]"></i>
-                    &nbsp; gymate@gymail.com
-                  </p>
-                </div>
-                {/* follow us */}
-                <div className="flex flex-col gap-6">
-                  <h3 className="text-[2rem] font-bold">Follow Us</h3>
-                  <div className="flex gap-5">
-                    <span className="bg-[#ff0336] rounded-full py-[12px] px-[17px] cursor-pointer">
-                      <i className="fa-brands fa-facebook-f text-[2.2rem] text-white"></i>
-                    </span>
-                    <span className="bg-[#ff0336] rounded-full py-[12px] px-[12px] cursor-pointer">
-                      <i className="fa-brands fa-twitter text-[2.2rem] text-white"></i>
-                    </span>
-                    <span className="bg-[#ff0336] rounded-full py-[10px] px-[13px] cursor-pointer">
-                      <i className="fa-brands fa-instagram text-[2.2rem] text-white"></i>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             {/* hamburger */}
             <i
               onClick={hamburgerMenu}
-              className="fa-bars fa-solid hidden text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
+              className="fa-bars fa-solid hidden text-white text-4xl cursor-pointer hover:text-[#007FFF] ease-in duration-200"
             ></i>
             {/* account */}
             <Link onClick={goTop} to="/signup" title="signup_button">
-              <i className="fa-regular fa-user  text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"></i>
+              <i className="fa-regular fa-user  text-white text-4xl cursor-pointer hover:text-[#007FFF] ease-in duration-200"></i>
             </Link>
-            {/* sidebar */}
-            <i
-              onClick={sideBar}
-              className="fa-regular fa-chart-bar text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
-            ></i>
           </div>
           {/* spin box */}
           <div className="border-[rgb(255,255,255,0.3)] border-solid border-2  p-2 rounded-md min620:hidden">
@@ -284,9 +169,8 @@ function Navbar() {
               className="flex items-center "
             >
               <i
-                className={`fa-solid fa-plus bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md ${
-                  spin ? "nav-btn-hover" : ""
-                }`}
+                className={`fa-solid fa-plus bg-[#007FFF] text-white text-2xl py-3 px-4 rounded-md ${spin ? "nav-btn-hover" : ""
+                  }`}
               ></i>
               <h3 className="text-white text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
                 join class now

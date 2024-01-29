@@ -1,6 +1,5 @@
 import About from "../components/About/About";
 import BmiCalc from "../components/BMI/BmiCalc";
-import Blog from "../components/Blog/Blog";
 import ChooseUs from "../components/ChooseUs/ChooseUs";
 import CtaBanner from "../components/CtaBanner/CtaBanner";
 import Featured from "../components/Featured/Featured";
@@ -23,7 +22,6 @@ function Home() {
       <Gallery />
       <BmiCalc />
       <Pricing />
-      <Blog />
       <CtaBanner />
       <Footer />
     </>
