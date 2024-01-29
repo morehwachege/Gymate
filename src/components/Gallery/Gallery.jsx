@@ -23,7 +23,7 @@ function Gallery() {
               className="w-[23rem] absolute -top-[10px]  "
             />
 
-            <h2 className="text-[3.4rem] font-bold mb-4">
+            <h2 className="text-[3.4rem] font-bold mb-4 text-gray-200">
               Our Workplace Gallery
             </h2>
             <p className="text-[#646464] font-medium text-[15px] ">
