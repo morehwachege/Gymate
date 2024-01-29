@@ -161,15 +161,6 @@ function Classes() {
           />
         </div>
 
-        <button
-          className="text-[1.5rem] text-white bg-slate-600 px-14 py-6 font-medium uppercase shadow-2xl mb-14"
-          onClick={() => {
-            loadMore();
-            goTop();
-          }}
-        >
-          {load ? "show more" : "show less"}
-        </button>
 
         <Footer />
       </section>

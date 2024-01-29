@@ -17,9 +17,9 @@ function TrainerBox() {
   };
 
   const trainers = [
-    { img: Trainer1, name: "John Lewis", job: "Yoga Trainer" },
-    { img: Trainer2, name: "Jonathan Doe", job: "Crossfit Trainer" },
-    { img: Trainer3, name: "Ana June", job: "Personal Trainer" },
+    { img: Trainer1, name: "Oscar Mwathi", job: "Yoga Trainer" },
+    { img: Trainer2, name: "Linda Namwamba", job: "Crossfit Trainer" },
+    { img: Trainer3, name: "Julius (Big Fish) Ogutu", job: "Personal Trainer" },
   ];
 
   return (
@@ -40,7 +40,7 @@ function TrainerBox() {
               src={train.img}
               alt="trainer"
               style={{ transition: "all 0.3s" }}
-              className={`w-[22rem] z-10 relative grayscale mx-auto ${
+              className={`w-[25rem] z-10 relative grayscale mx-auto ${
                 imgHover ? "hover:grayscale-0" : ""
               }`}
             />

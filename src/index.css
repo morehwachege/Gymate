@@ -640,7 +640,7 @@ body {
 
 /* blog section */
 .cta-section {
-  background-image: url('../src//images/call/background.jpg');
+  background-image: url('../src//images/call/background.png');
   object-fit: cover;
   background-size: cover;
   background-position: center;
